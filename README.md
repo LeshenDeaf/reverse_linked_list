@@ -4,15 +4,15 @@ There're two __classes__:
 * ```Node``` -- the element of list
 * ```NodeList``` -- the list of nodes. It provides additional methods to work with them.
 
-Public __methods__:
-* getters and setters
-* ```public function clearNextNode(): void``` - sets ```nextNode``` value to ```null```
-
 ## Node
 It is elementary class, the foundation of further code. 
 __Fields__: 
 * ```public int $value;``` - the value of node. To simplify project it is int but can be changed to mixed type.
 * ```private ?Node $nextNode = null;``` - a reference to the next node.
+
+Public __methods__:
+* getters and setters
+* ```public function clearNextNode(): void``` - sets ```nextNode``` value to ```null```
 
 ## NodeList
 The list itself. Provides methods to work with nodes comfortable.  
