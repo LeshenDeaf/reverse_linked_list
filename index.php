@@ -62,6 +62,7 @@ class NodeList
 	public function setHead(Node $head): void
 	{
 		$this->head = $head;
+		$this->currentNode = $this->head;
 		$this->detectTail();
 	}
 
