@@ -3,6 +3,7 @@
 There're two __classes__:
 * ```Node``` -- the element of list
 * ```NodeList``` -- the list of nodes. It provides additional methods to work with them.
+
 Public __methods__:
 * getters and setters
 * ```public function clearNextNode(): void``` - sets ```nextNode``` value to ```null```
