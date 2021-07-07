@@ -70,6 +70,11 @@ class NodeList
 
 	public function addNode(Node $node): void
 	{
+		if (!$this->tail) {
+			$this->setHead($node);
+			return;
+		}
+		
 		$this->tail->setNextNode($node);
 		$this->detectTail($this->tail);
 	}
